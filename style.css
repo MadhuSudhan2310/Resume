@@ -1,9 +1,12 @@
+*{
+color:black;
 
+}
 body{
-color: white;
+Color: white;
 background-color:blue;
 font-family: "Times New Roman", "Brush Script MT";
-
+font-size:25px;
 }
 .container{
 float:justify;
@@ -31,6 +34,13 @@ Z-index:100;
   background-color:blue;
   color: white;
 }
+.hero img{
+border: 1px solid black;
+  border-radius: 50%;
+  padding: 5px;
+  width: 250px;
+float:right;
+}
 span{
 color:white;
 font-size:30px;
@@ -39,33 +49,22 @@ text-transform: uppercase;
 text-shadow: 2px 1px black;
 
 }
+#Centred p{
+list-style-type: square;
+line-height: 1.5;
+}
 #education{
 color:brown;
 text-transform: uppercase;
 }
-#picture img{
-      height:120px;
-      weight:120px;
-      border:5px solid black;
-      border-radius:50%;
-      float:right;
-border-shadow: 0 0 25px blue, 0 0 5px darkblue;
-
-    }
-#first{
-background-size:cover;
-height:100%;
-float:right;
-width:100%
-justify-content:space-between;
-align-items:justify;
-position: relative;
-}
-#man p{
+# p{
 text-indent: 50px;
 letter-spacing:1px;
 line-height: 1.5;
 }
+
+
+
 #buttons button{
 background-color: green;
   border-radius:60% ;
@@ -88,16 +87,8 @@ align-items:justify;
 text-indent: 50px;
 letter-spacing:1px;
 line-height: 1.5;
-line-height: 1.5;
 }
-#image img{
-height:180px;
-width:180px;
-float:right;
-padding:60px 10% 0;
-border:5px solid blue;
-      border-radius:50%;
-}
+
 #list{
 list-style-type: square;
 line-height: 1.5;
@@ -117,12 +108,12 @@ list-style-type: circle;
 line-height: 1.5;
 }
 #team img{
-height:100px;
-width:100px;
-float:right;
-padding:30px  0;
+height:200px;
+width:200px;
+
 border:0px solid black;
-      border-radius:50%;
+border-radius:50%;
+}
 
 #page3{
 font-size:45px;
@@ -130,4 +121,9 @@ font-size:45px;
 font-size:25px;
 font-spacing: 40px;
 }
+#icons p{
+gap:50px;
+}
+
+
 
