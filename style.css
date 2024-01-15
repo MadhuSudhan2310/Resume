@@ -57,7 +57,7 @@ border-shadow: 0 0 25px blue, 0 0 5px darkblue;
     }
 #first{
 background-size:cover;
-display:flex;
+
 height:100%;
 float:right;
 width:100%
