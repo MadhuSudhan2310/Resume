@@ -1,0 +1,139 @@
+*{
+color:black;
+
+}
+body{
+color: white;
+background-color:blue;
+font-family: "Times New Roman", "Brush Script MT";
+
+}
+.container{
+float:justify;
+background-color:yellow;
+overflow:hidden;
+space-between :90px;
+border-radius:60px;
+
+}
+.container a {
+  float: left;
+  color: red;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 20px;
+display:flex;
+Z-index:100;
+}
+.container a:hover {
+  background-color: green;
+  color: black;
+}
+.container a.active {
+  background-color:blue;
+  color: white;
+}
+span{
+color:white;
+font-size:30px;
+ text-decoration: none;
+text-transform: uppercase;
+text-shadow: 2px 1px black;
+
+}
+#education{
+color:brown;
+text-transform: uppercase;
+}
+#picture img{
+      height:120px;
+      weight:120px;
+      border:5px solid black;
+      border-radius:50%;
+      float:right;
+border-shadow: 0 0 25px blue, 0 0 5px darkblue;
+
+    }
+#first{
+background-size:cover;
+display:flex;
+height:100%;
+float:right;
+width:100%
+justify-content:space-between;
+align-items:justify;
+position: relative;
+padding: 40px 10px 0;
+margin:1px;
+}
+#man p{
+text-indent: 50px;
+letter-spacing:1px;
+line-height: 1.5;
+}
+#buttons button{
+background-color: green;
+  border-radius:60% ;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+ text-align: center;
+  font-size: 16px;
+border-radius: 12px;
+}
+
+#text{
+float:cover;
+display:flex;
+text-align: justify;
+align-items:justify;
+}
+#text p{
+text-indent: 50px;
+letter-spacing:1px;
+line-height: 1.5;
+line-height: 1.5;
+}
+#image img{
+height:180px;
+width:180px;
+float:right;
+padding:60px 10% 0;
+border:5px solid blue;
+      border-radius:50%;
+}
+#list{
+list-style-type: square;
+line-height: 1.5;
+}
+#report{
+float:cover;
+display:flex;
+align-items:justify;
+}
+#report p{
+text-indent: 50px;
+letter-spacing:1px;
+line-height: 1.5;
+}
+#pen{
+list-style-type: circle;
+line-height: 1.5;
+}
+#team img{
+height:100px;
+width:100px;
+float:right;
+padding:30px  0;
+border:0px solid black;
+      border-radius:50%;
+
+#page3{
+font-size:45px;
+#icons{
+font-size:25px;
+font-spacing: 40px;
+}
+
